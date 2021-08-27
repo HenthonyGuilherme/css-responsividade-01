@@ -1,0 +1,22 @@
+body{
+    background-color: lightslategrey;
+}
+.div01{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+}
+.img1{
+    margin: 10px;
+    width: 700px;
+    height: 400px;
+}
+@media screen and (max-width: 800px) {
+    .img1{
+        width: 100%;
+    }
+}
